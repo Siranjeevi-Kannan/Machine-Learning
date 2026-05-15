@@ -83,6 +83,36 @@ print("Precision ",precision)
 print("Recall ",recall)
 print("F1 ",f1)
 
+#----------Before Custom Preprocessing(Bow)----------
+
+#ngram_range(1,1)
+# True Positives  136
+# False positives  20
+# Flase negatives  14
+# Precision  0.8717948717948718
+# Recall  0.9066666666666666
+# F1  0.8888888888888887
+
+#ngram_range(1,2)
+
+# True Positives  138
+# False positives  25
+# Flase negatives  12
+# Precision  0.8466257668711656
+# Recall  0.92
+# F1  0.8817891373801918
+
+
+#ngram_range(2,2)
+# True Positives  143
+# False positives  176
+# Flase negatives  7
+# Precision  0.4482758620689655
+# Recall  0.9533333333333334
+# F1  0.6098081023454157
+
+#----------After Custom Preprocessing----------
+
 #ngram_range(1,1)
 # True Positives  137
 # False positives  22
